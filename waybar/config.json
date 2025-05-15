@@ -2,9 +2,9 @@
     "layer": "top",
     "position": "top",
     "height": 30,
-    "margin": "5 10 5 10", // atas kanan bawah kiri
+    "margin": "5 10 5 10",
     "spacing": 8,
-    "output": ["eDP-1", "HDMI-A-1"], // tampil di laptop dan monitor eksternal
+    "output": ["eDP-1", "HDMI-A-1"],
     "exclusive": true,
     "fixed-center": true,
     "start_hidden": false,
