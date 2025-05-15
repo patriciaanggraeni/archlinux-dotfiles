@@ -1,0 +1,99 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = false
+
+[package]
+disabled = true
+# ----- General config
+[shell]
+disabled = false
+bash_indicator = ""
+style = "bold #FFFFE3"
+
+[character]
+success_symbol = "[➜](bold  #06D6A0)"
+error_symbol = "[✗](bold #FF746C)"
+
+[username]
+style_user = "bold #F20CB1"
+style_root = "bold #F20CB1"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[directory]
+read_only = " 󰌾"
+style = "bold #A2D2FF"
+format = "[$path]($style)[$read_only]($style) "
+
+[time]
+disabled = false
+format = " [$time]($style) "
+time_format = "%R"
+style = "bold #FFFFE3"
+
+# ----- Other config
+# [shlvl]
+# disabled = false
+# threshold = 1
+# symbol = "↕️ "
+
+# [cmd_duration]
+# min_time = 4
+# show_milliseconds = false
+# disabled = false
+# style = "bold italic red"
+
+# [hostname]
+# ssh_only = false
+# format = 'on [$hostname](bold #629AF5) '
+# trim_at = "."
+# disabled = false# ----- Battery config
+[battery]
+full_symbol = "󰁹"
+empty_symbol = "󰂎"
+charging_symbol = "󰁾"
+discharging_symbol = "󰂃"
+format = "[$symbol $percentage ]($style)"
+
+[[battery.display]]
+threshold = 90
+style = "bold #80EF80"
+
+[[battery.display]]
+threshold = 60
+style = "bold #FBEC5D"
+
+[[battery.display]]
+threshold = 30
+style = "bold #FF746C"# ----- Git config
+[git_branch]
+symbol = " "
+style = "bold #FFEE8C"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold yellow"
+format = "[$all_status$ahead_behind]($style)"
+staged = "[staged](#80EF80) "
+modified = "[modified](#FF746C) "
+untracked = "[untracked](#FFC067) "
+deleted = "[-](red) "
+conflicted = "[=](bold red) "
+renamed = "[»](blue) "
+typechanged = "[↺](cyan) "
+
+[git_metrics]
+disabled = false
+added_style = "bold green"
+deleted_style = "bold red"
+format = "([+$added]($added_style) [-$deleted]($deleted_style)) "
+
+# [git_state]
+# style = "bright-black"
+# format = '\([$state( $progress_current/$progress_total)]($style)\) '
+
+# [git_commit]
+# commit_hash_length = 8
+# style = "green"
+# only_detached = false
+# format = " [$hash]($style)"

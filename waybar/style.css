@@ -1,0 +1,25 @@
+#waybar {
+    background-color: #0A0F1F;
+    color: #EFEFEF;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 25px;
+    border-radius: 0px;
+    padding: 10px 10px;
+  }
+  
+  #clock {
+    color: #FF5E99;
+  }
+  
+  #battery {
+    color: #FF8C00;
+  }
+  
+  #network {
+    color: #8A2BE2;
+  }
+  
+  #tray {
+    background-color: transparent;
+  }
+  

@@ -1,0 +1,43 @@
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#FFE0D2'
+gradient_color_2 = '#FADADD'
+gradient_color_3 = '#EBDDFB'
+gradient_color_4 = '#BFD7ED'
+gradient_color_5 = '#D4F1F9'
+gradient_color_6 = '#E2F8F0'
+gradient_color_7 = '#FFF9D9'
+gradient_color_8 = '#D6CDEA'
+
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#E2F8F0'
+gradient_color_2 = '#D6F5F1'
+gradient_color_3 = '#DCEFE4'
+gradient_color_4 = '#AEECEF'
+gradient_color_5 = '#BFD7ED'
+gradient_color_6 = '#D4F1F9'
+gradient_color_7 = '#CCEFFF'
+gradient_color_8 = '#B7E3D8'
+
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#E2F8F0'
+gradient_color_2 = '#D6F5F1'
+gradient_color_3 = '#BFD7ED'
+gradient_color_4 = '#FFE0D2'
+gradient_color_5 = '#FFD6A5'
+gradient_color_6 = '#AEECEF'
+gradient_color_7 = '#F7C6A3'
+gradient_color_8 = '#B9E4C9'
+
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#FFE0D2'
+gradient_color_2 = '#FFB3AB'
+gradient_color_3 = '#AEECEF'
+gradient_color_4 = '#E2F8F0'
+gradient_color_5 = '#F7C6A3'
+gradient_color_6 = '#D4F1F9'
+gradient_color_7 = '#FF8A80'
+gradient_color_8 = '#B9E4C9'

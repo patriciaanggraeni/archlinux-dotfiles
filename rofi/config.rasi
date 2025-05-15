@@ -1,0 +1,103 @@
+* {    
+    margin              : 0px;
+    spacing             : 5px;
+    padding             : 10px;
+
+    border-color        : #1DDEB7;
+    border-radius       : 10px;
+    
+    window-border       : 2px solid;
+    window-border-color : #1DDEB7;
+
+    placeholder-color   : #888888FF;
+    foreground-color    : #FFFFFFFF;
+    
+    bg-color            : #000000CC;
+    hl-color            : #1DDEB7;
+    hlt-color           : #000000FF;
+    alt-color           : #111111FF;
+
+    font                : "JetBrains Mono Nerd Font Medium 10";
+}
+
+configuration {
+    modi                : "drun,run,filebrowser";
+    show-icons          : true;
+    hover-select        : true;
+    display-drun        : "Application";
+    me-accept-entry     : "MousePrimary";
+    me-select-entry     : "MouseSecondary";
+}
+
+listview {
+    lines               : 7;
+    border              : 0px solid;
+    columns             : 1;
+
+    cycle               : false;
+    scrollbar           : false;
+    fixed-height        : true;
+    fixed-columns       : true;
+}
+
+window {
+    width               : 700px;
+    
+    border              : var(window-border);
+    border-color        : var(window-border-color);
+    
+    transparency        : "real";
+    background-color    : var(bg-color);
+}
+
+prompt {
+    text-color          : var(foreground-color);
+}
+
+inputbar {
+    spacing             : 0px;
+    children            : ["prompt", "entry"];
+}
+
+entry {
+    text-color          : var(foreground-color);
+    placeholder         : "Search Apps";
+}
+
+mainbox {
+    padding             : 5px 5px;
+    children            : ["inputbar", "listview", "message"];
+}
+
+element {
+    margin              : 0px;
+    border              : 0px solid;
+    
+    text-color          : var(foreground-color);
+    background-color    : transparent;
+}
+
+element normal.normal {
+	text-color          : var(foreground-color);
+	background-color    : transparent;
+}
+
+element alternate.normal {
+	text-color          : var(foreground-color);
+	background-color    : transparent;
+}
+
+element selected.active {
+	text-color          : var(hlt-color);
+	background-color    : var(hl-color);
+}
+
+element selected.normal {
+	text-color          : var(hlt-color);
+	background-color    : var(hl-color);
+}
+
+message {
+    border              : 0px solid;
+    background-color    : red;
+}

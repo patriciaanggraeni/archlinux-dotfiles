@@ -1,0 +1,8 @@
+{
+    "network": {
+      "interface": "wlan0",
+      "format": "{ipaddr}  ",
+      "tooltip": true,
+      "tooltip-format": "Signal: {signalStrength}%"
+    }
+  }

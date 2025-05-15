@@ -1,0 +1,45 @@
+# ----- General config
+[shell]
+disabled = false
+bash_indicator = ""
+style = "bold #FFFFE3"
+
+[character]
+success_symbol = "[➜](bold  #06D6A0)"
+error_symbol = "[✗](bold #FF746C)"
+
+[username]
+style_user = "bold #F20CB1"
+style_root = "bold #F20CB1"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[directory]
+read_only = " 󰌾"
+style = "bold #A2D2FF"
+format = "[$path]($style)[$read_only]($style) "
+
+[time]
+disabled = false
+format = " [$time]($style) "
+time_format = "%R"
+style = "bold #FFFFE3"
+
+# ----- Other config
+# [shlvl]
+# disabled = false
+# threshold = 1
+# symbol = "↕️ "
+
+# [cmd_duration]
+# min_time = 4
+# show_milliseconds = false
+# disabled = false
+# style = "bold italic red"
+
+# [hostname]
+# ssh_only = false
+# format = 'on [$hostname](bold #629AF5) '
+# trim_at = "."
+# disabled = false

@@ -1,0 +1,19 @@
+# ----- Battery config
+[battery]
+full_symbol = "󰁹"
+empty_symbol = "󰂎"
+charging_symbol = "󰁾"
+discharging_symbol = "󰂃"
+format = "[$symbol $percentage ]($style)"
+
+[[battery.display]]
+threshold = 90
+style = "bold #80EF80"
+
+[[battery.display]]
+threshold = 60
+style = "bold #FBEC5D"
+
+[[battery.display]]
+threshold = 30
+style = "bold #FF746C"

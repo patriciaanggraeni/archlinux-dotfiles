@@ -1,0 +1,59 @@
+[colors]
+
+# ----- Basic Color
+jet-black = "#252525"       # for black color
+ivory-white = "#FFFFE3"     # for white color
+
+
+# ------ Main Color - Pastel
+salmon = "#FF746C"          # pastel red
+algae-green = "#80EF80"     # pastel green
+jagged-ice = "#B3EBF2"      # pastel blue
+sweet-corn = "#FFEE8C"      # pastel yellow
+pastel-purple = "#B39EB5"   # pastel purple
+saffron-mango = "#FFC067"   # pastel orange
+
+
+# ----- using analog method for color harmony
+
+# Color 1 - Carribben Green
+caribben-green = "#06D6A0"
+picton-blue = "#65B1E0"
+turqoise-blue = "#65D8E0"
+medium-aquamarine = "#65E096"
+soft-blue = "#658AE0"
+
+# Color 2 - Dusky Blue
+dusky-blue = "#4A50A1"
+tyrian-purple = "#B862F5"
+medium-slate-blue = "#8862F5"
+cornflower-blue = "#629AF5"
+violet-pink = "#E962F5"
+
+# Color 3 - Light Slate Blue
+light-slate-blue = "#6C63FF"
+bright-violet = "#AE0CF2"
+purplish-blue = "#630CF2"
+artyclick-ocean-blue = "#0C4AF2"
+fuchsia = "#F20CE5"
+
+# Color 4 - Deep Carmine Pink
+deep-carmine-pink = "#EF233C"
+international-orange = "#F2550C"
+tomato-red = "#F22D0C"
+hollywood-carise = "#F20CB1"
+tahiti-gold = "#F27D0C"
+
+# Color 5 - Marigold Yellow
+marigold-yellow = "#FBEC5D"
+hummingbird-green = "#81F20C"
+greenish-yellow = "#E2F20C"
+golden = "#F2BF0C"
+vivid-green = "#21F20C"
+
+# ----- Other color
+catskill-white = "#EDF6F9"
+regentt-gray = "#8D99AE"
+thistle = "#CDB4DB"
+wisp-pink =  "#FFF4FB"
+baby-blue = "#A2D2FF"
