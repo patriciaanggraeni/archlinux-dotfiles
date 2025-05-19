@@ -1,25 +1,21 @@
-#waybar {
-    background-color: #0A0F1F;
-    color: #EFEFEF;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 25px;
-    border-radius: 0px;
-    padding: 10px 10px;
-  }
-  
-  #clock {
-    color: #FF5E99;
-  }
-  
-  #battery {
-    color: #FF8C00;
-  }
-  
-  #network {
-    color: #8A2BE2;
-  }
-  
-  #tray {
-    background-color: transparent;
-  }
-  
+* { 
+  font-family: "JetBrainsMono Nerd Font", sans-serif; 
+  font-size: 13px; 
+}
+
+#waybar { 
+    color: #333333;
+    background-color: transparent;  
+}
+
+.modules-center {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #B3EBF2;
+}
+
+.modules-right {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #80FE80;    
+}
