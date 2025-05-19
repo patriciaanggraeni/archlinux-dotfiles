@@ -99,5 +99,5 @@ element selected.normal {
 
 message {
     border              : 0px solid;
-    background-color    : red;
+    background-color    : transparent;
 }
