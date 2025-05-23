@@ -1,0 +1,24 @@
+{
+     "pulseaudio": {
+	    "format": "{icon} {volume}%",
+	    "format-bluetooth": "{icon} 󰂰 {volume}%",
+	    "format-muted": "󰖁",
+	    "format-icons": {
+		    "headphone": "",
+		    "hands-free": "",
+		    "headset": "",
+		    "phone": "",
+		    "portable": "",
+		    "car": "",
+		    "default": [
+			    "", "", "󰕾",  ""
+		    ],
+		    "ignored-sinks": [
+			    "Easy Effects Sink"
+		    ]
+	    },
+	    "scroll-step": 5.0,
+	    "tooltip-format": "{icon} {desc} | {volume}%",
+	    "smooth-scrolling-threshold": 1
+    }
+}
