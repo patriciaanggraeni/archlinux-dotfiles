@@ -1,0 +1,8 @@
+{
+     "custom/poweroff": {
+        "format": " ⏻ ",
+        "tooltip": true,
+        "tooltip-format": "Power off system",
+        "on-click": "systemctl poweroff"
+     }
+}
