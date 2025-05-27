@@ -1,0 +1,19 @@
+[lua]
+symbol = ""
+format = "via [$symbol $version](bold blue) "
+
+[rust]
+symbol = ""
+format = "via [$symbol $version](bold red) "
+
+[java]
+symbol = ""
+format = "via [$symbol $version](bold brown) "
+
+[kotlin]
+symbol = ""
+format = "via [$symbol $version](bold purple) "
+
+[python]
+symbol = ""
+format = "via [$symbol $version](bold yellow) "
