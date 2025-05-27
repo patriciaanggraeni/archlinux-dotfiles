@@ -2,47 +2,47 @@ local set = vim.opt
 local api = vim.api
 local group = api.nvim_create_augroup("Setting", { clear = true })
 
--- general config
-local general_config = {
+local options = {
+
+    -- General
     mouse = "",
-    guicursor = { "n-v-c:block-blinkon500", "i:block-blinkon500" },
     backup = false,
     swapfile = false,
     writebackup = false,
     fileencoding = "utf-8",
     clipboard = "unnamedplus",
     completeopt = "menuone,noinsert,noselect",
-}
+    guicursor = { "n-v-c:block-blinkon500", "i:block-blinkon500" },
 
-local appearances_config = {
+    -- Appearance
+    wrap = false,
     number = true,
-    relativenumber = true,
-    splitbelow = true,
-    splitright = true,
     showmode = true,
+    linebreak = true,
+    splitright = true,
+    splitbelow = true,
     cursorline = false,
+    breakindent = true,
+    relativenumber = false,
+    
     background = "dark",
     termguicolors = true,
-    wrap = false,
-    linebreak = true,
-    breakindent = true,
-}
 
-local indentation_config = {
+    -- Indentation
     tabstop = 4,
     shiftwidth = 4,
     smarttab = true,
     expandtab = true,
-}
+    autoindent = true,
+    smartindent = true,
 
-local search_config = {
+    -- Search
     hlsearch = true,
     smartcase = true,
     ignorecase = true,
-}
 
-local other_config = {
-    updatetime = 300,
+    -- Misc
+    updatetime = 200,
     timeoutlen = 500,
     ttimeoutlen = 10,
     -- scrolloff = 8,
@@ -52,35 +52,19 @@ local other_config = {
     -- redrawtime = 1000,
 }
 
-for option, value in pairs(general_config) do
-    set[option] = value
+for k, v in pairs(options) do
+    set[k] = v
 end
 
-for option, value in pairs(appearances_config) do
-    set[option] = value
-end
-
-for option, value in pairs(indentation_config) do
-    set[option] = value
-end
-
-for option, value in pairs(search_config) do
-    set[option] = value
-end
-
-for option, value in pairs(other_config) do
-    set[option] = value
-end
-
--- shortmess:append("sI")
-
-api.nvim_exec([[ 
-    syntax on 
+vim.cmd([[
+    syntax on
     filetype plugin indent on
-]], false)
+]])
 
 api.nvim_create_autocmd("BufWritePost", {
     group = group,
-    pattern = "*",
-    command = "source <afile>",
+    pattern = "*.lua",
+    callback = function(ctx)
+        vim.cmd("source " .. ctx.file)
+    end,
 })

@@ -9,7 +9,7 @@ function Themes.install()
 end
 
 function Themes.load_theme()
-    require('themes.catppuccin')
+    require('core.themes.list_theme.catppuccin')
 end
 
 return Themes
