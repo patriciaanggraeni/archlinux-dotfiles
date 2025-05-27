@@ -3,6 +3,7 @@ add_newline = false
 
 [package]
 disabled = true
+
 # ----- General config
 [shell]
 disabled = false
@@ -47,7 +48,9 @@ style = "bold #FFFFE3"
 # ssh_only = false
 # format = 'on [$hostname](bold #629AF5) '
 # trim_at = "."
-# disabled = false# ----- Battery config
+# disabled = false
+
+# ----- Battery config
 [battery]
 full_symbol = "󰁹"
 empty_symbol = "󰂎"
@@ -65,7 +68,9 @@ style = "bold #FBEC5D"
 
 [[battery.display]]
 threshold = 30
-style = "bold #FF746C"# ----- Git config
+style = "bold #FF746C"
+
+# ----- Git config
 [git_branch]
 symbol = " "
 style = "bold #FFEE8C"
@@ -97,3 +102,23 @@ format = "([+$added]($added_style) [-$deleted]($deleted_style)) "
 # style = "green"
 # only_detached = false
 # format = " [$hash]($style)"
+
+[lua]
+symbol = ""
+format = "via [$symbol $version](bold blue) "
+
+[rust]
+symbol = ""
+format = "via [$symbol $version](bold red) "
+
+[java]
+symbol = ""
+format = "via [$symbol $version](bold brown) "
+
+[kotlin]
+symbol = ""
+format = "via [$symbol $version](bold purple) "
+
+[python]
+symbol = ""
+format = "via [$symbol $version](bold yellow) "

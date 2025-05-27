@@ -2,8 +2,8 @@
     "network": {
         "align": 0,
 	    "format": "{ifname}",
-	    "format-wifi": "{icon} {essid}",
-	    "format-ethernet": "󰌘",
+	    "format-wifi": "{icon} {signalStrength}%",
+	    "format-ethernet": "󰌘  {bandwidthUpBits}  {bandwidthDownBits}",
 	    "format-disconnected": "󰌙",
 	    "tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",
 	    "format-linked": "󰈁 {ifname} (No IP)",
