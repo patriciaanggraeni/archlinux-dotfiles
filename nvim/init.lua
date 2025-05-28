@@ -1,3 +1,3 @@
 require('core.plugins')
+require('core.keymaps')
 require('core.settings')
-require('core.keymaps').setup()

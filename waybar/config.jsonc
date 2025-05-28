@@ -1,6 +1,6 @@
 {
     "include": [ "~/.config/archlinux-dotfiles/waybar/master-config.jsonc" ],
-    "height": 20, 
+    "height": 30, 
     "spacing": 10,
     "margin": "10 10 0 10",
     "mode": "dock",
@@ -17,7 +17,8 @@
         // "hyprland/workspaces"
         "custom/reboot",
         "custom/quit",
-        "custom/poweroff"
+        "custom/poweroff",
+        "custom/launcher"
     ],
 
     "modules-center": [

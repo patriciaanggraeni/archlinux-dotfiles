@@ -12,6 +12,7 @@
         // ----- import modules from apps folder
         "~/.config/archlinux-dotfiles/waybar/custom/apps/browser.jsonc",
         "~/.config/archlinux-dotfiles/waybar/custom/apps/weather.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/custom/apps/launcher.jsonc",
 
         // ----- import modules from functions folder
         "~/.config/archlinux-dotfiles/waybar/custom/system/quit.jsonc",
