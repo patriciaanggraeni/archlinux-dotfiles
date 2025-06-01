@@ -1,0 +1,12 @@
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 101, column 46
+    |
+101 | format = "via [$symbol $version](bold blue) "r
+    |                                              ^
+expected newline, `#`
+
+[ERROR] - (starship::config): Unable to parse the config file: TOML parse error at line 101, column 46
+    |
+101 | format = "via [$symbol $version](bold blue) "r
+    |                                              ^
+expected newline, `#`
+

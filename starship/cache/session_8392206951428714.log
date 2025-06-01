@@ -1,0 +1,7 @@
+[WARN] - (starship::modules::username): Error in module `username`:
+ --> 1:7
+  |
+1 | [$user] on ($style) 
+  |       ^---
+  |
+  = expected variable, string, textgroup, or conditional
