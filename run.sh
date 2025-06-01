@@ -6,6 +6,7 @@ ln -s ~/.config/archlinux-dotfiles/starship ~/.config/starship
 # ----- files
 ln -s ~/.config/archlinux-dotfiles/nvim ~/.config/nvim
 ln -s ~/.config/archlinux-dotfiles/waybar ~/.config/waybar
+ln -s ~/.config/archlinux-dotfiles/swaync ~/.config/swaync
 ln -s ~/.config/archlinux-dotfiles/cava/config ~/.config/cava/config
 ln -s ~/.config/archlinux-dotfiles/btop/btop.conf ~/.config/btop/btop.conf
 ln -s ~/.config/archlinux-dotfiles/rofi/config.rasi ~/.config/rofi/config.rasi
