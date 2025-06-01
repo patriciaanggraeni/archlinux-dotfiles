@@ -18,7 +18,8 @@
         "custom/reboot",
         "custom/quit",
         "custom/poweroff",
-        "custom/launcher"
+        "custom/launcher",
+        "custom/wallpaper"
     ],
 
     "modules-center": [

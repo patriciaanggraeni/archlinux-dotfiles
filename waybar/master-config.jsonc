@@ -17,6 +17,7 @@
         // ----- import modules from functions folder
         "~/.config/archlinux-dotfiles/waybar/custom/system/quit.jsonc",
         "~/.config/archlinux-dotfiles/waybar/custom/system/reboot.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/custom/system/poweroff.jsonc"
+        "~/.config/archlinux-dotfiles/waybar/custom/system/poweroff.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/custom/system/wallpaper.jsonc"
     ]
 }
