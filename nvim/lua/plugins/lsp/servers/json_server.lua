@@ -4,9 +4,7 @@ local M = {}
 function M.setup()
     require('lspconfig').jsonls.setup {
         capabilities = capabilities,
-        cmd = {
-            -- 'C:\\Program Files\\lsp\\json\\vscode-json-language-server.cmd', '--stdio'
-        },
+        -- cmd = { vim.fn.expand('~/.config/archlinux-dotfiles/assets/nvim-lsp/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server'), '--stdio' },
         root_dir = vim.fn.getcwd(),
         settings = {
             json = {
