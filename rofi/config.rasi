@@ -41,7 +41,7 @@ listview {
 }
 
 window {
-    width               : 700px;
+    width               : 600px;
     
     border              : var(window-border);
     border-color        : var(window-border-color);
