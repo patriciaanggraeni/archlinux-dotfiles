@@ -24,7 +24,7 @@ local options = {
     cursorline = false,
     breakindent = true,
     relativenumber = false,
-    
+
     background = "dark",
     termguicolors = true,
 

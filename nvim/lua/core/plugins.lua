@@ -20,19 +20,19 @@ require("lazy").setup({
     checker = { enabled = false },
     spec = {
 
-      -- install plugins
-      { 'nvim-lua/plenary.nvim' },
-      { 'nvimtools/none-ls.nvim' },
-      { 'nvim-tree/nvim-tree.lua' },
-      { 'nvim-telescope/telescope.nvim' },
-      {
-          'nvim-telescope/telescope-file-browser.nvim',
-          dependencies = { 
-            'nvim-telescope/telescope.nvim', 
-            'nvim-lua/plenary.nvim' 
-          }
-      },
-      { 'akinsho/toggleterm.nvim', cmd = 'ToggleTerm' },
+        -- install plugins
+        { 'nvim-lua/plenary.nvim' },
+        { 'nvimtools/none-ls.nvim' },
+        { 'nvim-tree/nvim-tree.lua' },
+        { 'nvim-telescope/telescope.nvim' },
+        {
+            'nvim-telescope/telescope-file-browser.nvim',
+            dependencies = { 
+                'nvim-telescope/telescope.nvim', 
+                'nvim-lua/plenary.nvim' 
+            }
+        },
+        { 'akinsho/toggleterm.nvim', cmd = 'ToggleTerm' },
       { 'nvim-treesitter/nvim-treesitter', event = { 'BufReadPre', 'BufNewFile' } },
       { 'windwp/nvim-autopairs', event = 'InsertEnter' },
       { 'neovim/nvim-lspconfig', event = 'BufReadPre' },
