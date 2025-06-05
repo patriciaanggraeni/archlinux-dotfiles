@@ -1,7 +1,0 @@
-[WARN] - (starship::modules::shell): Error in module `shell`: 
- --> 1:7
-  |
-1 | [$name]
-  |       ^---
-  |
-  = expected variable, string, textgroup, or conditional
