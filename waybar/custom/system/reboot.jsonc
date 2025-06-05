@@ -1,8 +1,0 @@
-{
-    "custom/reboot": {
-        "format": "󰜉 ",
-        "on-click": "systemctl reboot",
-        "tooltip": true,
-        "tooltip-format": "Left Click: Reboot"
-    }
-}

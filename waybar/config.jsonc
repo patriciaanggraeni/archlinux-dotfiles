@@ -1,25 +1,25 @@
 {
     "include": [ "~/.config/archlinux-dotfiles/waybar/master-config.jsonc" ],
-    "height": 30, 
+    "id": "mainbar",
+    "ipc": false,
+    "height": 20, 
     "spacing": 10,
     "margin": "10 10 0 10",
     "mode": "dock",
     "layer": "top",
     "position": "top",
     "name": "mainbar",
-    "exclusive": true,
+    "exclusive": true, 
     "fixed-center": true,
     "start_hidden": false,
+    "modifier-reset": "press",
     "reload_style_on_change": true,
     "output": ["eDP-1", "HDMI-A-1"],
-
+     
     "modules-left": [
-        // "hyprland/workspaces"
-        "custom/reboot",
-        "custom/quit",
-        "custom/poweroff",
         "custom/launcher",
-        "custom/wallpaper"
+        "hyprland/workspaces"
+        // "custom/wallpaper", 
     ],
 
     "modules-center": [
@@ -28,9 +28,11 @@
 
     "modules-right": [
         "network", 
-        "custom/separator#line",
+        // "custom/separator#line",
         "pulseaudio", 
-        "custom/separator#line",
-        "battery"
+        // "custom/separator#line",
+        "battery",
+        // "custom/separator#line",
+        "custom/poweroff"
     ]
 } 

@@ -1,0 +1,34 @@
+{
+    "battery": {
+
+        // ----- general section
+        "align": 0,
+        "rotate": 0, 
+        "interval": 5,
+        "full-at": 100, 
+        "adapter": "AC",
+        "expand": false,
+        "design-capacity": false,
+        
+        // ----- format section 
+        "format-full": "{icon} Full",
+        "format": "{icon} {capacity}%",
+        "format-plugged": "󱘖 {capacity}%",
+        "format-charging": " {capacity}%", 
+        "format-icons": ["", "", "", "", ""],
+
+        // ----- tooltip section
+        "tooltip": true,
+        "bat-compatibility": true,
+
+        // ----- state section
+        "state": {
+            "good": 90,
+            "warning": 60,
+            "critical": 30
+        },
+
+        // ----- action section
+        // "on-click": ""
+    }
+}

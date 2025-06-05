@@ -1,8 +1,0 @@
-{
-    "custom/launcher": {
-        "format": " ",
-        "tooltip": false,
-        "class": "launcher",
-        "on-click": "exec rofi -show"
-    }    
-}

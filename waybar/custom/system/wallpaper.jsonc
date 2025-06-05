@@ -1,8 +1,0 @@
-{
-    "custom/wallpaper": {
-        "format": "󰸉",
-        "tooltip": "Ganti Wallpaper",
-        "on-click": "exec ~/.config/archlinux-dotfiles/hypr/users/scripts/wallpaper.sh",
-        "interval": 3600
-    }
-}

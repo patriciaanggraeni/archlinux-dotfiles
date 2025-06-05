@@ -1,23 +1,23 @@
 {
     "include": [
-        "~/.config/archlinux-dotfiles/waybar/modules/clock.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/modules/network.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/modules/battery.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/modules/pulseaudio.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/general/clock.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/general/network.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/general/battery.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/general/pulseaudio.jsonc",
 
         // ----- import modules from separator folder
-        "~/.config/archlinux-dotfiles/waybar/custom/arrow.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/custom/separator.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/arrow.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/separator.jsonc",
         
         // ----- import modules from apps folder
-        "~/.config/archlinux-dotfiles/waybar/custom/apps/browser.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/custom/apps/weather.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/custom/apps/launcher.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/apps/browser.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/apps/weather.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/apps/launcher.jsonc",
 
         // ----- import modules from functions folder
-        "~/.config/archlinux-dotfiles/waybar/custom/system/quit.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/custom/system/reboot.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/custom/system/poweroff.jsonc",
-        "~/.config/archlinux-dotfiles/waybar/custom/system/wallpaper.jsonc"
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/system/quit.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/system/reboot.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/system/poweroff.jsonc",
+        "~/.config/archlinux-dotfiles/waybar/modules/custom/system/wallpaper.jsonc" 
     ]
 }

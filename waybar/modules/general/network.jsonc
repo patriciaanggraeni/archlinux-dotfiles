@@ -1,0 +1,27 @@
+{
+    "network": {
+
+        // ----- general section
+        "align": 0,
+        "interval": 10,
+        "max-length": 30,
+
+        // ----- tooltip section
+        "tooltip": true,
+        "tooltip-format-ethernet": "{ifname} 󰌘",
+        "tooltip-format-disconnected": "󰌙 Disconnected",
+        "tooltip-format-wifi": "SSID: {essid} \nStrength: {signalStrength}%",  
+        "tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",
+
+        // ----- format section
+        "format": "{ifname}", 
+	    "format-disconnected": "󰤭 ",
+        "format-wifi": "{icon} {essid}",
+	    "format-linked": "󰈁 {ifname} (No IP)",
+	    "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ],  
+	    "format-ethernet": "󰌘  {bandwidthUpBits}  {bandwidthDownBits}",
+		
+        // ----- action section
+        "on-click": "kitty -e nmtui"
+    }
+}
